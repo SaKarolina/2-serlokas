@@ -23,24 +23,40 @@
 
 
 
-
 <!-- 
 
+default komentaru rasymas VSC: ctrl + /
 
-    Sventa Marija:
+*STILIAUS SAVYBES (struktura):
+1) stiliaus-savybe: reiksme;
+2) savybe: reiksme;
+
+example:
+background-color: lightgray;
+color: black;
+
+*Elementu tarpusavio atsistumimas:
+margin: 20%;                <-- visomis kryptimis aplink elementa
+margin-top: 20%;
+margin-right: 20%;
+margin-bottom: 20%;
+margin-left: 20%;
+
+Atvaizdavimo budas:
+display: block;         <-- stulpeliu
+display: inline;        <-- eilute, bet tekstas sklandziai persikelia i nauja eilute
+display: inline-block;  <-- eilute, max plotis iki tevo ribu, bet nepersikelineja i naujas eilutes
+
+Sventa Marija:
 display: inline-block;
-width: 100%
-float: left arba right (jei elementas turi buti kaip stulpelis)
+width: 100%;
+float: left;
 
+clearfix - ULTIMATE BAN!!! vietoj jos, elementams tiesiog reikia prirasyti -> display: inline-block;
 
+SPALVOS:
+background-color: rgb(234, 235, 237);
+background-color: hsl(220, 1%, 92%);
+background-color: #EAEBED;
 
-
-clearfix - ULTIMATE BAN!!! vietoj jos, elementams tiesiog reikia parasyti -> display: inline-block
-
-
-Spalvos: 
-PVZ
-1. background-color: rgb(234, 235, 237)
-2. background-color: hsl(220, 1%, 92%)
-3. background-color: #EAEBED         <------ trumpesnis tekstas, greiciau susiveda
 -->
