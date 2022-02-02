@@ -134,6 +134,9 @@ body {
 
 @media (max-width: 500px) {
     .main {
+        display: flow-root;
+        justify-content: center;
+        align-items: center;
         width: 100%;
         margin: 0;
     }
