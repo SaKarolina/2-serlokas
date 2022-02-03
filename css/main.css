@@ -67,6 +67,11 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     padding: 20px;
+    transition: all 0.9s;
+}
+
+.button:hover {
+    background-color: #4f546b;
 }
 
 @media (max-width: 1100px) {
@@ -134,22 +139,25 @@ body {
 
 @media (max-width: 500px) {
     .main {
-        display: flow-root;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
+        gap: 10px;;
         width: 100%;
         margin: 0;
+        padding: 20px;
     }
     .img {
+        margin-right: 20px;
         display: flex;
         flex-wrap: wrap;
-        width: 50%;
+        width: 70%;
         height: 100%;
     }
     .content {
         display: flex;
         flex-wrap: wrap;
-        width: 45%;
+        width: 70%;
         height: 100%;
     }
     .title {
