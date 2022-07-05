@@ -7,7 +7,7 @@
 
 _33 group website project_
 
-This project is for **educational** porpuses only.
+This project is for **educational** purposes only.
 
 Site published at: https://sakarolina.github.io/2-serlokas/
 
